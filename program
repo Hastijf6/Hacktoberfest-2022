@@ -1,0 +1,20 @@
+username = ""
+password = ""
+
+
+def ent_prog():
+    print("Welcome to the program")
+    
+name = input("Enter username: ")
+passw = input("Enter password: ")
+
+
+    if passw != password or name != username:
+        print("The password was incorrect.")
+        passw = input("Enter password: ")
+    else:
+        ent_prog()
+        
+        
+  
+
